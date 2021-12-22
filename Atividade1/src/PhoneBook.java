@@ -6,7 +6,6 @@ public class PhoneBook extends Person{
 	public void postPerson(Person person) {
 		phonebook.add(person);
 	}
-	
 	public void getPerson() {		
 		for(int i = 0; i < phonebook.size(); i++) {
 			phonebook.get(i).showPerson();

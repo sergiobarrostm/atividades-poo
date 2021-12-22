@@ -9,7 +9,6 @@ public class Person {
 		this.phoneNumber = phoneNumber;
 		this.email = email;
 	}
-	
 	public Person() {}
 	
 	public String getEnrollment () {
