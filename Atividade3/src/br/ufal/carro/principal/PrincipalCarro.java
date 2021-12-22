@@ -14,13 +14,16 @@ public class PrincipalCarro {
 		Carro compass = new Carro("Jeep Compass", "branco" , flex , 60);
 		Carro civic = new Carro("Honda civic", "cinza" , diesel , 50);
 		
+		//acelerando um carro sem combustivel
 		compass.ligar();
-		compass.acelerar(10);
+		compass.acelerar(20);
 		
+		//velocidade de um flex com 10 unidades de combustivel
 		compass.abastecer(10);
 		compass.ligar();
 		compass.acelerar(10);
 		
+		//velocidade de um diesel com 10 unidades de combustivel
 		civic.abastecer(10);
 		civic.ligar();
 		civic.acelerar(10);		

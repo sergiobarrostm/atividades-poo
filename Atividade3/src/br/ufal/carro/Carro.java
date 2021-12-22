@@ -57,7 +57,7 @@ public class Carro {
 	
 	public void abastecer(int quantCombustivel) {
 		this.tanque.abastecer(quantCombustivel);
-        System.out.println(this.modelo + " acabou de abastecer " + quantCombustivel + " litros" );
+        System.out.println(this.modelo + " acabou de abastecer " + quantCombustivel + " unidades de combustivel" );
 	}
 
 }

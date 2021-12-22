@@ -44,7 +44,7 @@ public class Person {
 	public void showPerson() {
 		System.out.println(
 				"Nome: " + name + "\n" +
-				"Matrícula: " + enrollment + "\n" +
+				"Matrï¿½cula: " + enrollment + "\n" +
 				"Telefone: " + phoneNumber + "\n" +
 				"Email: " + email + "\n"
 				);

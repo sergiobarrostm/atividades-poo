@@ -16,6 +16,5 @@ public class PhoneBook extends Person{
 	public void deletePerson(Person person) {
 		phonebook.remove(person);
 	}
-	
 
 }
